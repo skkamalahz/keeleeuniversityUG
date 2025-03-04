@@ -29,7 +29,6 @@
     <body class="bg-gray-100 flex items-center justify-center min-h-screen m-0 p-0">
         <div class="container mx-auto p-4">
             <h1 class="text-4xl font-bold text-center mb-8 border-4 border-double border-indigo-500 rounded-md">Keele University UG</h1>
-            <h1 class="text-4xl font-bold text-center mb-8 border-4 border-double border-indigo-500 rounded-md">Keele University UG</h1>
             <div class="row m-4 p-4 gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-3">
                 @foreach($posts as $post)
                 <div class="max-w-2xl bg-white shadow-lg rounded-lg overflow-hidden flex flex-col">
