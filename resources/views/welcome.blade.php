@@ -16,7 +16,7 @@
             body {
                 /* font-family: 'Instrument Sans', sans-serif;
                 background: Black;
-                color: #fff; 
+                color: #fff;
                 margin: 0;
                 padding: 0;
                 display: flex;
@@ -29,6 +29,7 @@
     <body class="bg-gray-100 flex items-center justify-center min-h-screen m-0 p-0">
         <div class="container mx-auto p-4">
             <h1 class="text-4xl font-bold text-center mb-8 border-4 border-double border-indigo-500 rounded-md">Keele University UG</h1>
+            <h1 class="text-4xl font-bold text-center mb-8 border-4 border-double border-indigo-500 rounded-md">Keele University UG</h1>
             <div class="row m-4 p-4 gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-3">
                 @foreach($posts as $post)
                 <div class="max-w-2xl bg-white shadow-lg rounded-lg overflow-hidden flex flex-col">
@@ -38,7 +39,7 @@
                     <div class="p-6 flex flex-col flex-grow">
                         <h2 class="text-2xl font-bold text-gray-800">{{ $post->CourseName }}</h2>
                         <p class="text-gray-600 mt-2">This course provides a deep dive into web scraping technologies and methodologies.</p>
-                        
+
                         <div class="mt-4 space-y-2 flex-grow">
                             <p class="text-gray-700"><strong>Entry Requirement:</strong> {{ $post->EntryRequirement }}</p>
                             <p class="text-gray-700"><strong>Fees & Funding:</strong> {{ $post->FeesAndFunding }}</p>
